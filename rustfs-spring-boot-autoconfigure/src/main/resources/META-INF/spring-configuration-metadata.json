@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "rusfs",
+      "type": "io.github.xbingbo.rustfs.config.RustFSProperties",
+      "sourceType": "io.github.xbingbo.rustfs.config.RustFSProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rustfs.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址"
+    },
+    {
+      "name": "rustfs.client-id",
+      "type": "java.lang.String",
+      "description": "客户端ID"
+    },
+    {
+      "name": "rustfs.client-secret",
+      "type": "java.lang.String",
+      "description": "客户端密钥。"
+    },
+    {
+      "name": "rustfs.region",
+      "type": "java.lang.String",
+      "description": "区域",
+      "defaultValue": "us-east-1"
+    },
+    {
+      "name": "rustfs.path-style-access",
+      "type": "java.lang.Boolean",
+      "description": "路径访问",
+      "defaultValue": true
+    },
+    {
+      "name": "rustfs.bucket",
+      "type": "java.lang.String",
+      "description": "桶名",
+      "defaultValue": "unknown"
+    }
+  ]
+}
